@@ -1,0 +1,26 @@
+.subscriptionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+.subscriptionItem__button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.subscriptionItem__buttonDisabled {
+  background-color: gray !important;
+}
+
+.subscriptionItem:hover {
+  opacity: 1;
+}
