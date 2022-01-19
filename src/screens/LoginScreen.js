@@ -10,7 +10,7 @@ const LoginScreen = () => {
       <div className={styles.loginScreen__background}>
         <img
           className={styles.loginScreen__logo}
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src={"/images/netflix-logo.png"}
           alt="logo"
         />
         <button

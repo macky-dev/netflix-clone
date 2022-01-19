@@ -23,10 +23,7 @@ const ProfileScreen = () => {
       <div className={styles.profileScreen__body}>
         <h1>Edit Profile</h1>
         <div className={styles.profileScreen__info}>
-          <img
-            src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
-            alt="profile"
-          />
+          <img src={"/images/avatar.png"} alt="profile" />
           <div className={styles.profileScreen__details}>
             <h2>{user.email}</h2>
             <div className={styles.profileScreen__plans}>
